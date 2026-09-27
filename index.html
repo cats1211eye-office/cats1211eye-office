@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Office AI Solutions</title>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Noto Sans JP",
+               "Yu Gothic", sans-serif;
+  color: #263238;
+  background: #f7f9fb;
+  line-height: 1.8;
+}
+
+header {
+  background: #ffffff;
+  padding: 22px 7%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e8ecef;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+nav a {
+  margin-left: 24px;
+  text-decoration: none;
+  color: #455a64;
+  font-size: 14px;
+}
+
+.hero {
+  background: linear-gradient(135deg, #eef6ff, #ffffff);
+  padding: 100px 7%;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 44px;
+  margin: 0 0 18px;
+  letter-spacing: 2px;
+}
+
+.hero h2 {
+  font-size: 22px;
+  font-weight: 500;
+  margin: 0 0 25px;
+}
+
+.hero p {
+  max-width: 680px;
+  margin: auto;
+  color: #607d8b;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 32px;
+  padding: 14px 34px;
+  background: #263238;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: 600;
+}
+
+section {
+  max-width: 1050px;
+  margin: auto;
+  padding: 80px 7%;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 45px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+
+.card h3 {
+  margin-top: 0;
+  font-size: 19px;
+}
+
+.card p {
+  color: #607d8b;
+  font-size: 14px;
+}
+
+.problem {
+  background: white;
+}
+
+.problem ul {
+  max-width: 700px;
+  margin: auto;
+  padding-left: 25px;
+}
+
+.problem li {
+  margin-bottom: 12px;
+}
+
+.about {
+  text-align: center;
+}
+
+.about p {
+  max-width: 700px;
+  margin: auto;
+}
+
+.contact {
+  background: #263238;
+  color: white;
+  text-align: center;
+  max-width: none;
+}
+
+.contact p {
+  color: #cfd8dc;
+}
+
+footer {
+  background: #1c2529;
+  color: #90a4ae;
+  text-align: center;
+  padding: 25px;
+  font-size: 12px;
+}
+
+@media (max-width: 700px) {
+  header {
+    padding: 18px 5%;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .hero {
+    padding: 75px 6%;
+  }
+
+  .hero h1 {
+    font-size: 34px;
+  }
+
+  .hero h2 {
+    font-size: 19px;
+  }
+
+  section {
+    padding: 60px 6%;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">Office AI Solutions</div>
+
+  <nav>
+    <a href="#service">サービス</a>
+    <a href="#about">私たちについて</a>
+    <a href="#contact">お問い合わせ</a>
+  </nav>
+</header>
+
+
+<section class="hero">
+
+  <h1>Office AI Solutions</h1>
+
+  <h2>Excel × AIで、仕事をもっとシンプルに。</h2>
+
+  <p>
+    Excelを使った業務ツールの作成から、
+    データ整理、業務効率化まで。
+    日々の「ちょっと困った」を、
+    使いやすい仕組みに変えていきます。
+  </p>
+
+  <a href="#contact" class="button">お問い合わせ</a>
+
+</section>
+
+
+<section class="problem">
+
+  <h2 class="section-title">こんなお悩みありませんか？</h2>
+
+  <ul>
+    <li>Excelでの管理作業に時間がかかる</li>
+    <li>毎回同じ作業を繰り返している</li>
+    <li>複雑なExcelファイルをもっと使いやすくしたい</li>
+    <li>在庫やデータを簡単に管理できるようにしたい</li>
+    <li>AIを仕事に取り入れたいけれど、どう使えばいいかわからない</li>
+  </ul>
+
+</section>
+
+
+<section id="service">
+
+  <h2 class="section-title">サービス</h2>
+
+  <div class="cards">
+
+    <div class="card">
+      <h3>Excelツール作成</h3>
+      <p>
+        業務内容に合わせて、
+        入力・集計・管理がしやすいExcelツールを作成します。
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>業務データ整理</h3>
+      <p>
+        バラバラになったデータを整理し、
+        見やすく管理しやすい形に整えます。
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>AI業務効率化</h3>
+      <p>
+        AIを活用して、
+        日々の事務作業やデータ処理を効率化する方法を考えます。
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+
+<section class="about" id="about">
+
+  <h2 class="section-title">Office AI Solutionsについて</h2>
+
+  <p>
+    「もっと簡単にできないかな？」
+    という日々の業務上の悩みを、
+    ExcelやAIなどのツールを活用して解決します。
+  </p>
+
+  <p>
+    一人ひとりの業務内容に合わせた、
+    無理なく使い続けられる仕組みづくりをサポートします。
+  </p>
+
+</section>
+
+
+<section class="contact" id="contact">
+
+  <h2 class="section-title">お問い合わせ</h2>
+
+  <p>
+    サービスについてのご相談・お問い合わせはこちらから。
+  </p>
+
+  <a href="mailto:YOUR_EMAIL@example.com" class="button">
+    メールで問い合わせる
+  </a>
+
+  
+</section>
+
+
+<footer>
+  © 2026 Office AI Solutions
+</footer>
+
+</body>
+</html>
