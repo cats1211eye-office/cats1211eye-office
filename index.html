@@ -94,7 +94,7 @@ section {
 
 .cards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 22px;
 }
 
@@ -136,17 +136,29 @@ section {
 .about p {
   max-width: 700px;
   margin: auto;
+  margin-bottom: 18px;
 }
 
 .contact {
   background: #263238;
   color: white;
-  text-align: center;
   max-width: none;
+  text-align: center;
 }
 
 .contact p {
   color: #cfd8dc;
+}
+
+.contact .email {
+  color: white;
+  font-size: 17px;
+  margin-top: 20px;
+}
+
+.contact .button {
+  background: white;
+  color: #263238;
 }
 
 footer {
@@ -206,11 +218,12 @@ footer {
 
   <h1>Office AI Solutions</h1>
 
-  <h2>Excel × AIで、仕事をもっとシンプルに。</h2>
+  <h2>仕事も、旅も、もっとシンプルに。</h2>
 
   <p>
     Excelを使った業務ツールの作成から、
-    データ整理、業務効率化まで。
+    データ整理、AIを活用した業務効率化、
+    旅行プラン・旅程作成まで。
     日々の「ちょっと困った」を、
     使いやすい仕組みに変えていきます。
   </p>
@@ -230,6 +243,8 @@ footer {
     <li>複雑なExcelファイルをもっと使いやすくしたい</li>
     <li>在庫やデータを簡単に管理できるようにしたい</li>
     <li>AIを仕事に取り入れたいけれど、どう使えばいいかわからない</li>
+    <li>旅行に行きたいけれど、どこをどう回るか決められない</li>
+    <li>移動時間を考えながら効率よく観光したい</li>
   </ul>
 
 </section>
@@ -265,6 +280,15 @@ footer {
       </p>
     </div>
 
+    <div class="card">
+      <h3>旅行プラン・旅程作成</h3>
+      <p>
+        希望や日数、予算などに合わせて、
+        観光スポットや移動ルートを組み合わせた
+        オリジナルの旅行プラン・旅程を作成します。
+      </p>
+    </div>
+
   </div>
 
 </section>
@@ -276,13 +300,14 @@ footer {
 
   <p>
     「もっと簡単にできないかな？」
-    という日々の業務上の悩みを、
+    という日々の仕事や旅行に関する悩みを、
     ExcelやAIなどのツールを活用して解決します。
   </p>
 
   <p>
-    一人ひとりの業務内容に合わせた、
-    無理なく使い続けられる仕組みづくりをサポートします。
+    一人ひとりの目的や希望に合わせた、
+    無理なく使い続けられる仕組みや
+    オリジナルのプランづくりをサポートします。
   </p>
 
 </section>
@@ -294,6 +319,10 @@ footer {
 
   <p>
     サービスについてのご相談・お問い合わせはこちらから。
+  </p>
+
+  <p class="email">
+    ○○○○@○○○○.com
   </p>
 
   <a href="mailto:cats1211eye@gmail.com" class="button">
